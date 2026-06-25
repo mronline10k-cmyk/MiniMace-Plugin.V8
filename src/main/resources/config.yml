@@ -1,0 +1,23 @@
+# TrueMiniMace Configuration
+# Simple: Uses vanilla MACE item, just shrinks it with resource pack
+
+item:
+  # The name of the item (supports color codes with &)
+  name: "&4&lMini Mace"
+  # Lore lines (supports color codes)
+  lore:
+    - "&7A smaller, lighter version of the Mace"
+    - "&cUse like a normal mace - fall for critical hits!"
+  
+  # Bonus damage added on top of vanilla mace (2.0 = +1 heart)
+  bonus-damage: 2.0
+  
+  # Enchantments to apply when item is given (set level to 0 to disable)
+  # NOTE: Wind Burst is capped at level 1. Players CANNOT upgrade it at anvil.
+  enchantments:
+    # Wind Burst: 0 (disabled), 1 (max - cannot upgrade further)
+    wind_burst: 1
+    # Density levels: 0 (disabled), 1-5
+    density: 0
+    # Breach levels: 0 (disabled), 1-5
+    breach: 0
